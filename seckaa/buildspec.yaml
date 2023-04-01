@@ -10,5 +10,5 @@ phases:
       - echo build completed
 artifacts:
   files:
-    - target/seckaa-0.0.1-SNAPSHOT.jar
+    - target/seckaaApp.jar
   discard-paths: yes

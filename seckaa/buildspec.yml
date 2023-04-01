@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      -echo build started
+      -echo clean package
+  post_build:
+    commands:
+      -echo build completed
+artifacts:
+  files:
+    - target/seckaa-0.0.1-SNAPSHOT.jar
+  discard-paths: yes
+  
